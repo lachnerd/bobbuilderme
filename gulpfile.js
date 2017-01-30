@@ -169,5 +169,5 @@ gulp.task('watch', function() {
 /* *************
 	DEFAULT
 ************* */
-gulp.task('default', ['html', 'css', 'js', 'images', 'connect', 'watch']);
-
+gulp.task('default', ['html', 'css', 'js', 'images']);
+gulp.task('develop', ['html', 'css', 'js', 'images', 'connect', 'watch']);
